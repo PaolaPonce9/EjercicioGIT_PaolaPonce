@@ -2,52 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera Clase HTML</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
 </head>
 
 <body>
-    <p>hola <samp>este es para resaltar</samp></p>
-    <h1>es la etiqueta más improtnate de la página, con lo que desees que te encuentre</h1>
+  <body>
+    <div itemscope itemtype="https://m.media-amazon.com/images/I/81OdA-ITspL.__AC_SY445_SX342_QL70_FMwebp_.jpg">
 
-    <h2>este es un subtitulo</h2>
-    <div></div>
-    <div>
-        <div>
-            <div>
-                <p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos atque debitis voluptatibus, culpa
-                    vero, provident unde, inventore aut porro aspernatur! Quisquam, veritatis amet? Sed nisi dignissimos
-                    sapiente et veniam?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos atque debitis voluptatibus, culpa
-                    vero, provident unde, inventore aut porro aspernatur! Quisquam, veritatis amet? Sed nisi dignissimos
-                    sapiente et veniam?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos atque debitis voluptatibus, culpa
-                    vero, provident unde, inventore aut porro aspernatur! Quisquam, veritatis amet? Sed nisi dignissimos
-                    sapiente et veniam?</p>
-                </p>
 
-            </div>
-        </div>
+        <span itemprop="name">Product Name</span><br>
+        <img itemprop="image" src="https://m.media-amazon.com/images/I/81OdA-ITspL.__AC_SY445_SX342_QL70_FMwebp_.jpg" alt='metadescripcion de la imagen' /> <br>
+
+        Precio:
+        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <span itemprop="priceCurrency" content="USD">$</span><span
+                  itemprop="price" content="1000.00">1,000.00</span>
+        
+            <link itemprop="availability" href="https://schema.org/InStock" />In stock
+          </div>
+
+          Product description:
+          <span itemprop="description">Descripcion del producto</span><br>
+          <br>
+
+        Rating:
+        <div itemprop="aggregateRating"
+          itemscope itemtype="https://schema.org/AggregateRating">
+         Rated <span itemprop="ratingValue">4.2</span>/5
+         based on <span itemprop="reviewCount">360</span> customer reviews
+        </div> <br>
+      
+        Customer reviews:
+      
+        <div itemprop="review" itemscope itemtype="https://schema.org/Review">
+            <span itemprop="name">Servicio</span> -
+    by <span itemprop="author">Ellie</span>,
+    <meta itemprop="datePublished" content="2011-04-01">April 1, 2011
+    <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+      <meta itemprop="worstRating" content = "1">
+      <span itemprop="ratingValue">1</span>/
+      <span itemprop="bestRating">5</span>stars
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nihil consectetur laudantium nulla ullam! Deleniti
-        cupiditate reprehenderit impedit! Ipsam, nesciunt minus? Alias voluptates inventore necessitatibus unde
-        similique fugiat, omnis impedit!</p>
-    <img src="img/modulo 1.jpg" alt="Texto que va primero" title="Texto que si se ve">
-    <p><a href="https://facebook.com" target="_blank">ir a mi red social</a></p>
-
-
-    <!-- a es anchor y es para hipervinculos para redirigir. -->
-    <!-- Alt + shift + A es para  dejar comentarios -->
-    <!-- target es el tipo de ventana¨bottomshet, pop up, normal, que se abra un link epro no se cierre la anterior -->
-    <!-- h1, h2 y h3 es para prioridad del SEO -->
-    <!--al clocar una imagen hay que tenerla subida a nivel de carpeta apra que funcione, y funiona cmo un directorio carpeta grande/subcarpeta/archivo -->
-    <!-- div son divisiones, para hacer las cosas mas rapidas div>div>div -->
-    <!-- para multipicar los comandos colocar etiqueta p>x5
-    Y también peudo editar multiples con Alt -->
-    <!-- h1. algooo, me permite crear una clase -->
-    <!--  ! + Alt es para -->
-    <!-- ALt + Z es para corregir los limites del texto-->
-
-</body>
+    <span itemprop="reviewBody">Comentario del Cliente: No me paree lo más util de la via la verdad.</span>
+  </div> <br>
+  ...
+</div>
+  </body>
